@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="aui" name="csvWidget" version="0.0.4">
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="aui" name="curlWidget" version="0.0.2">
     <details>
-        <title>csvWidget</title>
+        <title>curlWidget</title>
         <homepage>https://github.com/wirecloud-fiware/quick-start-development-tutorial</homepage>
         <authors>Anssi Uistola, Pekka Okkonen</authors>
-        <contributors>nope</contributors>
+        <contributors>noepe</contributors>
         <email>auistola@univ.yo.oulu.fi</email>
-        <image>images/csvIcon.png</image> <!-- 170x80 -->
-        <description>Creates .csv file from given json</description>
+        <image>images/tutorialpic.jpg</image> <!-- 170x80 -->
+        <description>Creates copy-paste curl commands based on searches</description>
         <longdescription>README.md</longdescription>
         <license>Apache License 2.0</license>
         <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
@@ -18,8 +18,8 @@
 	
     <wiring>
         <inputendpoint
-                name="createCSV"
-                label="Creates csv file"
+                name="printCurl"
+                label="Creates curls"
                 type="text"/>
     </wiring>	
 
