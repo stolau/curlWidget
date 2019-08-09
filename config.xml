@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="aui" name="curlWidget" version="0.0.2">
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="aui" name="curlWidget" version="0.0.3">
     <details>
         <title>curlWidget</title>
         <homepage>https://github.com/wirecloud-fiware/quick-start-development-tutorial</homepage>
         <authors>Anssi Uistola, Pekka Okkonen</authors>
         <contributors>noepe</contributors>
         <email>auistola@univ.yo.oulu.fi</email>
-        <image>images/tutorialpic.jpg</image> <!-- 170x80 -->
+        <image>images/book.jpg</image> <!-- 170x80 -->
         <description>Creates copy-paste curl commands based on searches</description>
         <longdescription>README.md</longdescription>
         <license>Apache License 2.0</license>
@@ -15,12 +15,12 @@
     </details>
     <contents src="index.html" useplatformstyle="true"/>
 	<rendering width="240" height="50%"/>
-	
+
     <wiring>
         <inputendpoint
                 name="printCurl"
                 label="Creates curls"
                 type="text"/>
-    </wiring>	
+    </wiring>
 
 </widget>
